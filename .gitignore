@@ -1,2 +1,4 @@
 cloudflare.ini
-ssl/
+ssl/certs/*
+ssl/letsencrypt/*
+ssl/lib/letsencrypt/*
