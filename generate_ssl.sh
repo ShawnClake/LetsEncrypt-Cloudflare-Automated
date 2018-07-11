@@ -1,0 +1,1 @@
+docker run -it --rm --name letsencrypt-cloudflare-automated -v /home/project/ssl/letsencrypt:/etc/letsencrypt -v /home/project/ssl/lib/letsencrypt:/var/lib/letsencrypt -v /home/project/ssl/certs:/certs -e DOMAINS="nopatience.net,www.nopatience.net,service.nopatience.net,mw.nopatience.net,assets.nopatience.net" shawnclake/letsencrypt-cloudflare-automated certonly 
